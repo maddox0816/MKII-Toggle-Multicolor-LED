@@ -12,22 +12,22 @@
 #define BP_S1_PORT 
 
 // Push Button S2 J4.32
-#define BP_S2_INDEX 
-#define BP_S2_PIN 
-#define BP_S2_MASK 
-#define BP_S2_PORT 
+#define BP_S2_INDEX PA12INDEX
+#define BP_S2_PIN 12
+#define BP_S2_MASK  ((uint32_t) 0x00000001 << PA12INDEX)
+#define BP_S2_PORT GPIOA
 
 // LED Red J4.39
-#define BP_RGB_R_PIN 
-#define BP_RGB_R_MASK 
-#define BP_RGB_R_PORT 
-#define BP_RGB_R_INDEX 
+#define BP_RGB_R_PIN 1
+#define BP_RGB_R_MASK ((uint32_t) 0x00000001 << PB1INDEX)
+#define BP_RGB_R_PORT GPIOB
+#define BP_RGB_R_INDEX PB1INDEX
 
 // LED Green J4.38
-#define BP_RGB_G_PIN 
-#define BP_RGB_G_MASK 
-#define BP_RGB_G_PORT 
-#define BP_RGB_G_INDEX 
+#define BP_RGB_G_PIN 28
+#define BP_RGB_G_MASK ((uint32_t) 0x00000001 << PA28INDEX)
+#define BP_RGB_G_PORT GPIOB
+#define BP_RGB_G_INDEX PA28INDEX
 
 // LED Blue J4.37
 #define BP_RGB_B_PIN 
