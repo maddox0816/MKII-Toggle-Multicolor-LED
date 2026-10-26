@@ -1,47 +1,17 @@
 [
    {
-      "directory" : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/Debug",
-      "command"   : "clang++ -I\"C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
-      "file"      : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/startup_mspm0g350x_ticlang.c"
+      "directory" : "/Users/davidholland/ImbeddedFinal/MKII-Toggle-Multicolor-LED/Debug",
+      "command"   : "clang++ -I\"/Users/davidholland/ImbeddedFinal/MKII-Toggle-Multicolor-LED\" -I\"/Applications/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"/Applications/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
+      "file"      : "/Users/davidholland/ImbeddedFinal/MKII-Toggle-Multicolor-LED/MKII.c"
    },
    {
-      "directory" : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/Debug",
-      "command"   : "clang++ -I\"C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
-      "file"      : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/main.c"
+      "directory" : "/Users/davidholland/ImbeddedFinal/MKII-Toggle-Multicolor-LED/Debug",
+      "command"   : "clang++ -I\"/Users/davidholland/ImbeddedFinal/MKII-Toggle-Multicolor-LED\" -I\"/Applications/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"/Applications/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
+      "file"      : "/Users/davidholland/ImbeddedFinal/MKII-Toggle-Multicolor-LED/main.c"
    },
    {
-      "directory" : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/Debug",
-      "command"   : "clang++ -I\"C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
-      "file"      : "C:/Users/maddo/LP_MSPM0G3507/bsp.c"
-   },
-   {
-      "directory" : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/Debug",
-      "command"   : "clang++ -I\"C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
-      "file"      : "C:/Users/maddo/LP_MSPM0G3507/clock.c"
-   },
-   {
-      "directory" : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/Debug",
-      "command"   : "clang++ -I\"C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
-      "file"      : "C:/Users/maddo/LP_MSPM0G3507/mspm0g350x_int.c"
-   },
-   {
-      "directory" : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/Debug",
-      "command"   : "clang++ -I\"C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
-      "file"      : "C:/Users/maddo/LP_MSPM0G3507/timer.c"
-   },
-   {
-      "directory" : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/Debug",
-      "command"   : "clang++ -I\"C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
-      "file"      : "C:/Users/maddo/LP_MSPM0G3507/uart.c"
-   },
-   {
-      "directory" : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/Debug",
-      "command"   : "clang++ -I\"C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
-      "file"      : "C:/Users/maddo/LP_MSPM0G3507/MKII.c"
-   },
-   {
-      "directory" : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/Debug",
-      "command"   : "clang++ -I\"C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"C:/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
-      "file"      : "C:/Users/maddo/workspace_ccstheia/MKII Toggle LEDs/MKII.c"
+      "directory" : "/Users/davidholland/ImbeddedFinal/MKII-Toggle-Multicolor-LED/Debug",
+      "command"   : "clang++ -I\"/Users/davidholland/ImbeddedFinal/MKII-Toggle-Multicolor-LED\" -I\"/Applications/ti/mspm0_sdk_2_11_00_07/source/third_party/CMSIS/Core/Include\" -I\"/Applications/ti/mspm0_sdk_2_11_00_07/source\" -D__MSPM0G3507__ -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c++/v1\" -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/lib/clang/22/include\" -isystem\"/Applications/ti/ccs2100/ccs/tools/compiler/ti-cgt-armllvm_5.1.1.LTS/include/c\" -xc",
+      "file"      : "/Users/davidholland/ImbeddedFinal/MKII-Toggle-Multicolor-LED/startup_mspm0g350x_ticlang.c"
    }
 ]
