@@ -8,14 +8,14 @@
 // Push Button S1 J4.33
 #define BP_S1_INDEX  PA11INDEX
 #define BP_S1_PIN    11
-#define BP_S1_MASK   ((uint32_t) 0x00000001 << BP_RGB_R_PIN)
+#define BP_S1_MASK   ((uint32_t) 0x00000001 << BP_S1_PIN)
 #define BP_S1_PORT   GPIOA
 
 // Push Button S2 J4.32
-#define BP_S2_INDEX 
-#define BP_S2_PIN 
-#define BP_S2_MASK 
-#define BP_S2_PORT 
+#define BP_S2_INDEX PA12INDEX
+#define BP_S2_PIN 12
+#define BP_S2_MASK ((uint32_t) 0x00000001 << BP_S2_PIN)
+#define BP_S2_PORT GPIOA
 
 // LED Red J4.39
 #define BP_RGB_R_PIN   1
@@ -24,16 +24,16 @@
 #define BP_RGB_R_INDEX  PB1INDEX
 
 // LED Green J4.38
-#define BP_RGB_G_PIN 
-#define BP_RGB_G_MASK 
-#define BP_RGB_G_PORT 
-#define BP_RGB_G_INDEX 
+#define BP_RGB_G_PIN 28
+#define BP_RGB_G_MASK ((uint32_t) 0x00000001 << BP_RGB_G_PIN)
+#define BP_RGB_G_PORT GPIOA
+#define BP_RGB_G_INDEX PA28INDEX   
 
 // LED Blue J4.37
 #define BP_RGB_B_PIN  31
 #define BP_RGB_B_MASK  ((uint32_t) 0x00000001 << BP_RGB_B_PIN)
-#define BP_RGB_B_PORT   GPIOB
-#define BP_RGB_B_INDEX  PB31INDEX
+#define BP_RGB_B_PORT   GPIOA
+#define BP_RGB_B_INDEX  PA31INDEX
 
 void InitializeBoosterpack(uint32_t ClockFrequency);
 

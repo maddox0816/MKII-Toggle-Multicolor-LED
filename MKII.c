@@ -53,6 +53,12 @@ uint32_t BP_ReadS1()
 
 uint32_t BP_ReadS2()
 {
+  uint32_t ReturnValue = 0;
+  ReturnValue = (BP_S2_PORT->DIN31_0 & BP_S2_MASK) >> BP_S2_PIN;
+
+  ReturnValue = !(ReturnValue);
+
+  return ReturnValue;
 }
 
 void BP_TurnOnRedLED(void)
@@ -72,30 +78,30 @@ void BP_ToggleRedLED(void)
 
 void BP_TurnOnGreenLED(void)
 {
-
+  BP_RGB_G_PORT->DOUT31_0 |= BP_RGB_G_MASK;
 }
 
 void BP_TurnOffGreenLED(void)
 {
-
+  BP_RGB_G_PORT->DOUT31_0 &= ~BP_RGB_G_MASK;
 }
 
 void BP_ToggleGreenLED(void)
 {
-
+  BP_RGB_G_PORT->DOUT31_0 ^= BP_RGB_G_MASK;
 }
 
 void BP_TurnOnBlueLED(void)
 {
-
+  BP_RGB_B_PORT->DOUT31_0 |= BP_RGB_B_MASK;
 }
 
 void BP_TurnOffBlueLED(void)
 {
-
+  BP_RGB_B_PORT->DOUT31_0 &= ~BP_RGB_B_MASK;
 }
 
 void BP_ToggleBlueLED(void)
 {
- 
+  BP_RGB_B_PORT->DOUT31_0 ^= BP_RGB_B_MASK;
 }
