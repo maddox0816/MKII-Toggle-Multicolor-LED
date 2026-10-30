@@ -10,6 +10,8 @@ void InitializeBoosterpack(uint32_t ClockFrequency)
     IOMUX->SECCFG.PINCM[BP_RGB_R_INDEX] = (IOMUX_MODE1 | IOMUX_PINCM_PC_CONNECTED);
     IOMUX->SECCFG.PINCM[BP_RGB_G_INDEX] = (IOMUX_MODE1 | IOMUX_PINCM_PC_CONNECTED);
     IOMUX->SECCFG.PINCM[BP_RGB_B_INDEX] = (IOMUX_MODE1 | IOMUX_PINCM_PC_CONNECTED);
+
+    IOMUX->SECCFG.PINCM[BP_BUZZER_INDEX] = (IOMUX_MODE1 | IOMUX_PINCM_PC_CONNECTED);
   // Red: Peripheral connected and IOMUX mode 1
   // Green: Peripheral connected and IOMUX mode 1
   // Blue: Peripheral connected and IOMUX mode 1
@@ -26,12 +28,16 @@ void InitializeBoosterpack(uint32_t ClockFrequency)
     BP_RGB_B_PORT->DOE31_0 |= BP_RGB_B_MASK;
     BP_RGB_G_PORT->DOE31_0 |= BP_RGB_G_MASK;
 
+    BP_BUZZER_PORT->DOE31_0 |= BP_BUZZER_MASK;
+
   // Turn off red RGB LED
   // Turn off green RGB LED
   // Turn off blue RGB LED
   BP_TurnOffRedLED();
   BP_TurnOffGreenLED();
   BP_TurnOffBlueLED();
+
+  BP_TurnOffBuzzer();
 
   // Set the clock frequency
   switch (ClockFrequency) {
@@ -105,3 +111,20 @@ void BP_ToggleBlueLED(void)
 {
   BP_RGB_B_PORT->DOUT31_0 ^= BP_RGB_B_MASK;
 }
+
+void BP_TurnOnBuzzer()
+{
+  BP_BUZZER_PORT->DOUT31_0 |= BP_BUZZER_MASK;
+}
+
+void BP_TurnOffBuzzer()
+{
+  BP_BUZZER_PORT->DOUT31_0 &= ~BP_BUZZER_MASK;
+}
+
+void BP_ToggleBuzzer()
+{
+  BP_BUZZER_PORT->DOUT31_0 ^= BP_BUZZER_MASK;
+}
+
+

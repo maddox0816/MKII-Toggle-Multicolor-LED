@@ -35,6 +35,13 @@
 #define BP_RGB_B_PORT   GPIOA
 #define BP_RGB_B_INDEX  PA31INDEX
 
+// Buzzer in PB4
+#define BP_BUZZER_PIN   4
+#define BP_BUZZER_MASK  ((uint32_t) 0x00000001 << BP_BUZZER_PIN)
+#define BP_BUZZER_PORT  GPIOB
+#define BP_BUZZER_INDEX PB4INDEX
+
+
 void InitializeBoosterpack(uint32_t ClockFrequency);
 
 /**
@@ -112,5 +119,25 @@ void BP_TurnOffBlueLED(void);
  * @return none
  */
 void BP_ToggleBlueLED(void);
+
+/**
+ * @brief Turn on Buzzer.
+ * @param none
+ * @return none
+ */
+void BP_TurnOnBuzzer(void);
+
+/**
+ * @brief Turn off Buzzer.
+ * @param none
+ * @return none
+ */
+void BP_TurnOffBuzzer(void);
+/**
+ * @brief Toggle Buzzer.
+ * @param none
+ * @return none
+ */
+void BP_ToggleBuzzer(void);
 
 #endif

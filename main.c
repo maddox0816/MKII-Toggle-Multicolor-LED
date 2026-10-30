@@ -3,6 +3,8 @@
 
 #define FALSE 0
 #define TRUE 1
+#define NOTE_C4 262U
+
 
 int main(void)
 {
@@ -25,6 +27,23 @@ int main(void)
             while (BP_ReadS2() == 1);
             BP_ToggleRedLED();
         }
+       
+        // BP_ToggleBuzzer();
+        // BP_TurnOnBuzzer();
+        // BP_TurnOffBuzzer();
+        const uint32_t halfPeriodUs = 1000000U / (NOTE_C4 * 2U);
+        const uint32_t halfPeriodCycles = halfPeriodUs * ONE_MICROSECOND_DELAY;
+
+        BP_TurnOnBuzzer();
+        for (uint32_t halfCycle = 0U; halfCycle < NOTE_C4; halfCycle++) {
+            ClockDelay(halfPeriodCycles);
+            BP_ToggleBuzzer();
+        }
+        BP_TurnOffBuzzer();
+        
+
+
+
     }
     return 0;
 }
